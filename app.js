@@ -24,7 +24,7 @@ db.authenticate().then(() => {
 
 const PORT = 3000;
 const init = async () => {
-  await db.sync({ force: true });
+  await db.sync({ focus: true });
   // make sure that you have a PORT constant
 
   app.listen(PORT, () => {
