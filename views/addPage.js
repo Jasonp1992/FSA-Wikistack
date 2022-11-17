@@ -11,11 +11,9 @@ module.exports = () =>
         <div class="col-sm-10">
           <input id="title" name="author" type="text" class="form-control" />
         </div>
-        <!-- PLACEHOLDER FOR AUTHOR NAME FIELD -->
       </div>
 
       <div>
-        <!-- PLACEHOLDER FOR AUTHOR EMAIL FIELD -->
         <label for="title" class="col-sm-2 control-label">Email</label>
         <div class="col-sm-10">
           <input id="title" name="email" type="text" class="form-control" />
@@ -30,7 +28,6 @@ module.exports = () =>
       </div>
 
       <div>
-        <!-- PLACEHOLDER FOR PAGE CONTENT TEXTAREA FIELD -->
         <label for="title" class="col-sm-2 control-label">Content</label>
         <div class="col-sm-10">
           <input id="title" name="content" type="text" class="form-control" />

@@ -22,9 +22,9 @@ db.authenticate().then(() => {
   console.log("connected to the database");
 });
 
-const PORT = 1337;
+const PORT = 3000;
 const init = async () => {
-  await db.sync();
+  await db.sync({ force: true });
   // make sure that you have a PORT constant
 
   app.listen(PORT, () => {
