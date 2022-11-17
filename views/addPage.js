@@ -35,7 +35,6 @@ module.exports = () =>
       </div>
 
       <div>
-        <!-- PLACEHOLDER FOR PAGE STATUS INPUT FIELD -->
         <label for="title" class="col-sm-2 control-label">Status</label>
         <div class="col-sm-10">
           <input id="title" name="status" type="text" class="form-control" />
