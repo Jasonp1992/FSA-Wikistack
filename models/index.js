@@ -32,4 +32,12 @@ const User = db.define("user", {
   },
 });
 
+Page.addHook("beforeValidate", (page, options) => {
+  page.slug = generateSlug(page.title);
+});
+
+function generateSlug(title) {
+  return title.replace(/\s+/g, "_").replace(/\W/g, "");
+}
+
 module.exports = { db, Page, User };
